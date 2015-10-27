@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+    <script src="https://code.angularjs.org/1.3.10/angular.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<div class="info-container">
+  <section class="info">
+       <img src="https://photos-4.dropbox.com/t/2/AADBWDq0KWyiSnN6O11GhvV82eMP-oktlRlDl_oJAFU-mg/12/15152010/png/32x32/1/1445954400/0/2/mad-lib-happy-face.png/CIrnnAcgASACIAMgBSAHKAEoAigH/4_yurSVYWZDQ9wUwpmplPAidMTOH5JCZi5jHI8C-nTE?size=1024x768&size_mode=2" alt="Logo" height="100" width="100">
+  </section>
+  <section class="info">
+      <img src="https://photos-2.dropbox.com/t/2/AABxQv0sTxYTCqXO0mDiz9VxxrI1xsJt9Uy7Ok8MQkdBCQ/12/15152010/png/32x32/1/1445954400/0/2/ng-mad-libs-logo.png/CIrnnAcgASACIAMgBSAHKAEoAigH/eS66ujO0LLT9gOuJ5Ix5W_W2SVabAIIWgWFZf2ubFZs?size=1024x768&size_mode=2" alt="title"> 
+  </section>
+</div>
+<div class="info-container">
+  <div class="inputs">
+<h1> Please provide the following words</h1>
+    <input type="text" placeholder="Female Name" ng-model="femalename" />
+    <input type="text" placeholder="Job Title" ng-model="jobtitle" />
+    <input type="text" placeholder="tedious task"ng-model="tedioustask" />
+     <br>
+    <input type="text" placeholder="dirty task" ng-model="dirtytask" />
+    <input type="text" placeholder="celebrity" ng-model="celebrity" />
+    <input type="text" placeholder="useless skill" ng-model="uselessskill" />
+     <br>
+    <input type="text" placeholder="adjective" ng-model="adjective" />
+    <input type="text" placeholder="obnoxiuous celbertity" ng-model="obnoxiuouscelbertity" />
+    <input type="text" placeholder="huge number" ng-model="hugenumber" />
+    <br>
+</div>
+  <div class="paragraph">
+    <p> <span>{{ femalename }}</span> was a {{jobtitle}} who loved technology. Although she loved parts of her job, she absolutely hated  {{tedioustask}} and {{dirtytask}}. So, {{femalename}} met with her life mentor {{celebrity}} who told her to learn how to {{uselessskill}} with Thinkful. Thinkful didn't offer a course on {{uselessskill}} so she studied programming instead.</p> 
+    <p> What a great decision! With her new skills, {{femalename}} built a(n) {{adjective}} robot named {{obnoxiuouscelbertity}} that not only loved {{dirtytask}} but did it {{hugenumber}} faster.</p>
+  </div>
+
+</div>
+</html>

@@ -1,0 +1,26 @@
+/* Styles go here */
+
+
+
+
+.info-container {
+  text-align:center;
+}
+.info {
+  vertical-align:top;
+  display:inline-block;
+  
+  padding-left: 10px;
+  box-sizing:border-box;
+}
+
+input { 
+    height: 20px; 
+    font-size: 18px
+  }
+
+.paragraph {
+    padding: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
